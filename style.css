@@ -1,0 +1,163 @@
+body {
+    margin: 0px;
+    background-color:#8AA9AE;
+}
+
+.navbar {
+    width: 75%;
+    height: 130px;
+    background-color: #8AA9AE;
+    overflow: hidden;
+    color: #122F2F;
+}
+
+#img {
+    height: 130px;
+    padding-left: 0%;
+    position: fixed;
+    z-index: 1;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.video {
+    position: relative;
+    left: 210px;
+    height: 700px;
+    opacity: 0.5;
+}
+
+#h1 {
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    color: #183b3b;
+    height: 70vh;
+}
+
+.list {
+    background-color: white;
+    width: 20%;
+    height: 80vh;
+    float: right;
+    background-color: #eeede7;
+    visibility: hidden;
+}
+
+.list i{
+    visibility: visible;
+}
+
+#h2 {
+    color: #111026;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+}
+
+#icon {
+    padding-left: 80%;
+    padding-top: 20%;
+}
+
+.fa-bars {
+    font-size: 30px;
+    cursor: pointer;
+    position: fixed;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 4%;
+    font-size: 500%;
+}
+
+#searchbar {
+    border-radius: 32px;
+    width: 97%;
+    height: 45px;
+    padding-left: 5%;
+    font-size: large;
+}
+
+#searchdiv {
+    width: 30%;
+    height: 50px;
+    float: left;
+    margin-left: 35%;
+}
+
+#searchbar:hover {
+    background-color:#eeede7;
+}
+
+button {
+    width: 5%;
+    height: 40px;
+    border: none;
+    background-color: #e2e1dd;
+    margin-top: 0.2%;
+}
+
+.fa-magnifying-glass {
+    font-size: 30px;
+}
+
+.head {
+    opacity: 0;
+}
+
+#title {
+    transition: opacity 2s ease-in-out;
+}
+
+.ip {
+    opacity: 0;
+}
+
+#inputBox {
+    position: relative;
+    left: -4%;
+    top: 10%;
+    width: 100%;
+    height: 7vh;
+    border-radius: 30px;
+    background-color: #E2EDE7;
+    padding-left: 30px;
+    font-size: x-large;
+    border: solid white 1mm;
+    transition: 0.8s;
+}
+
+#inputBox::placeholder {
+    text-align: center;
+}
+
+#inputBox:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.srh {
+    opacity: 0;
+}
+
+#searchBtn {
+    position: relative;
+    left: 100%;
+    background: none;
+    color: #1f1d36;
+    width: 10%;
+    top: 4.5px;
+}
+
+#img:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+#img {
+    transition: 0.8s;
+}

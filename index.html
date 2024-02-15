@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/aa5e5954a0.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="list">
+        <div id="icon">
+            <i class="fa-solid fa-bars" id="hambMenu"></i>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <div id="h2">
+            <img src="logo-bg.png" alt="Elite Builds logo" id="img">
+        </div>
+    </div>
+
+    <div>
+        <video src="buildAnimation (edited).mp4" class="video" autoplay muted></video>
+        <div id="h1">
+            <h1 id="title" class="head">Elite Builds</h1>
+            <input type="search" id="inputBox" class="ip" placeholder="What are you looking for ?">
+            <button type="submit" onclick="searchInput()" id="searchBtn" class="srh"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+</body>
+
+<script>
+    function searchInput() {
+        var data = document.getElementById("inputBox").value;
+        console.log(data);
+    }
+</script>
+</html>
